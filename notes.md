@@ -1,3 +1,3 @@
 variables:
 
-Variables are the containers that are used to store values
+Variables are the containers that are used to store values. Ex: a = 45, b = 90, c=79...
