@@ -1,6 +1,3 @@
-variables:
-
-Variables are the containers that are used to store values. Ex: a = 45, b = 90, c=79...
 
 step1: save here in vs code
 step2: git add .(to add the change in local)
