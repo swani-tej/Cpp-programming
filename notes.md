@@ -7,6 +7,7 @@ step5: git push (uploads the complete changes to the git hub)
 NOTE: Follow these steps every time you did any change here
 
 
+
 PROGRAMMING
 Create a file of .cpp extension 
 write ur desired code in that file
@@ -31,4 +32,22 @@ using namespace std;
 int main() {
     cout<<"HELLO IM SWANITEJ"<<endl;
     return 0;
+}
+
+
+Today i have learnt about comments and modules in C++ 
+comments are negligeble in C++ those are not compiled by the compiler denoted by "//"
+and if you wanted to make somme lines as a comment we have to use /* at the start and end with */
+example program
+#include<iostream>
+
+using namespace std;
+
+int main()  {
+  cout<<"hello world";
+  /* some comment
+  some comment
+  another comment*/cout<<"programming";
+  cout<<"by swanitej";
+  return0;
 }
