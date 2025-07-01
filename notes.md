@@ -51,3 +51,10 @@ int main()  {
   cout<<"by swanitej";
   return0;
 }
+
+DATA TYPES: Data types can stored in different types, it can be a number,decimal number, boolean(true or false),binary number, characters(1,2,3,4,5,!,#,@,d,ty,r, etc...), strings(combination of characters) 
+
+data types are of multiple types :
+1. premitive
+2. user defined
+3. derived data types...
