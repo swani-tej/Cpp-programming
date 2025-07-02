@@ -140,3 +140,45 @@ int main() {
     cout << str << end;
     return 0;
 }
+
+PROBLEMS OF DATA TYPES ARE UPLOADED IN PROBLEMS FILE!!!!
+
+
+ASCII : Amarican standard code of information interchange
+-- every character has its own ascii decimal value
+example: a=97 , b=98 , c=99 
+like this we have decimal values for each character
+
+
+TYPE SAFTEY: 
+C++ will not allow user to convert one data type to another data type in default
+if we give a string to integer it will show a error because in inter data type we have to
+give integer only. the error will occur because of the type saftey only.
+
+
+Statically typed
+
+type conversionns:
+
+1. implicit 
+2. explicit
+
+Implicit type conversion: 
+
+when convertimg from lower data type to higher data type, 
+it will convert defaultly. during the conversion there is a chance of a data loss
+
+Explicit type conversion:
+
+we should explixitly give the data type and run the code..
+
+Uses:
+1. Type saftey
+2. Better performance
+3. predictability
+
+Disadvantage:
+1. Code looks complex
+2. Loss of precision
+3. Poor in performance
+4. Can cause overflow or underflow
