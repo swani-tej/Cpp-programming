@@ -120,3 +120,23 @@ int main() {
 
 
 "<<endl;" in the code refers to switch to the next line
+
+
+EXAMPLE FOR DATA TYPES :
+#include<iostream>
+
+using namespace std;
+
+int main() {
+    float a = 10.6;
+    int b = 10;
+    char ch = 'g';
+    bool e = true;
+    string str = "swanitej";
+    cout << a << endl;
+    cout << a+b <<endl;
+    cout << ch << endl;
+    cout << e << endl;
+    cout << str << end;
+    return 0;
+}
