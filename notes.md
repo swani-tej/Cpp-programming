@@ -70,3 +70,28 @@ Premitive data types(basic)
    long long integer : RANGE : -(2^63) to (2^63)-1 ; SIZE : 8 bytes
 7. double : (large floating point number) : large decimal number: double  RANGE : -1.7x10^308 to 1.7x10^308 SIZE: 8 bytes 
 8. void or valueless : void : 
+
+
+VARIABLES ::
+NAMED STORAGE MEMORY LOCATION
+used to store data and can access data sometime in future
+
+variables :
+1. creating a variable (declaring a variable)
+2. assinging a value to the variable (initialization/definition)
+
+variable creation:
+
+syntax = datatype nameofthevariable;   
+-- mentioning the data type is mandatory in C++
+
+
+naming a variable :
+1. letters, numbers, underscore
+2. variables name should not start with numbers (any letter starting are valid variable)
+(a variable name starting with a number is invalid ex: 1over, 5game etc'...)
+3. should not be a keyword (we should not use "namespace" again in the variable if used cpmpiler will be confused and gives error)
+4. variables are case sensitive(ex: "a and A are different)
+
+
+"<<endl;" in the code refers to switch to the next line
