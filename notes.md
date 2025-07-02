@@ -83,6 +83,7 @@ variables :
 variable creation:
 
 syntax = datatype nameofthevariable;   
+
 -- mentioning the data type is mandatory in C++
 
 
@@ -92,6 +93,30 @@ naming a variable :
 (a variable name starting with a number is invalid ex: 1over, 5game etc'...)
 3. should not be a keyword (we should not use "namespace" again in the variable if used cpmpiler will be confused and gives error)
 4. variables are case sensitive(ex: "a and A are different)
+
+EXAMPLE : 
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int score;
+    float overs;
+
+    score = 180;
+    overs = 16.4;
+
+    score = score + 6;
+
+    score = score + score + 6;
+
+     cout<< overs ;
+
+    return 0;
+}
+
 
 
 "<<endl;" in the code refers to switch to the next line
