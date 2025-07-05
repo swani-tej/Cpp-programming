@@ -65,7 +65,7 @@ Premitive data types(basic)
 2. Float : decimal numbers :RANGE :  -3.4x10^38 to 3.4x10^38 SIZE: 4 bytes
 3. Boolean :True or False valur ; bool  : RANGE : True = 1, False = 0; SIZE: 1 byte
 4. character :'1' , '2' , '3' , 'a' etc... : RANGE : -128 to 127 ; SIZE: 1 byte
-5. string : multiple characters(sentences) ; "hello swanitej" 
+5. string : multiple characters(sentences) ; "hello swanitej"  it is a derived data type
 6. long integer : long int SIZE: 8 bytes 
    long long integer : RANGE : -(2^63) to (2^63)-1 ; SIZE : 8 bytes
 7. double : (large floating point number) : large decimal number: double  RANGE : -1.7x10^308 to 1.7x10^308 SIZE: 8 bytes 
@@ -182,3 +182,16 @@ Disadvantage:
 2. Loss of precision
 3. Poor in performance
 4. Can cause overflow or underflow
+
+
+Macros:
+
+Macro is a piece of code which can be assined a value, and this value is used anywhere in the code
+and upon using macro, the original code piece/snippet will be used.
+
+SYNTAX:
+#define name code
+
+define name(x) code
+
+
