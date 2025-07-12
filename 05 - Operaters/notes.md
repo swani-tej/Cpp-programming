@@ -78,3 +78,31 @@ denoted as ?:
 example:
 
 string is EligibleToVote = (age>=18)? "Is Eligible To vote" : "Is Not Eligible To Vote"
+
+
+Increment/Decrement Operators:
+
+Used to increase or decrease the value by 1
+
+Increment : ++
+Decrement : --
+
+Increment :
+
+-Pre inncrement :  ++a      Increase and use
+-Post increment :  a++      Use annd increase
+
+Decrement :
+
+-Pre decrement :   --a      Decrease and use 
+-Post decement :   a--      Use and decrease
+
+
+Operator Precedence :
+
+Decide on the order of computation if multiple operators are in the same expression.
+
+Operator Associativity :
+
+When multiple operators are under same precedence level, then we use assocoativity 
+to decide the computation order.
