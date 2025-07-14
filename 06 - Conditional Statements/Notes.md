@@ -61,3 +61,49 @@ else if(condition of else if) {
 
 }
 
+
+Nested if else :
+
+if() {
+
+    if() {
+
+        if() {
+
+
+        }
+    }
+}
+
+else{
+
+    if() {
+
+        else{
+
+
+        }
+    }
+}
+
+
+
+Switch case :
+
+switch(variable) {
+    case variablevalue1:
+        // code to be executed;
+        break;
+    case variablevalue1:
+        // code to be executed;
+        break;
+    case variablevalue1:
+        // code to be executed;
+        break;
+    case variablevalue1:
+        // code to be executed;
+        break;
+    default :
+        // code to be executed;
+
+}
