@@ -1,3 +1,6 @@
+/*
+Print 1 to 100 numbers
+*/
 #include<iostream>
 
 using namespace std;
